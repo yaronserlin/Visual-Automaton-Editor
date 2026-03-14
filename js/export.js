@@ -34,7 +34,7 @@ function saveProject() {
         currentZoom: currentZoom
     };
     const jsonString = JSON.stringify(projectData, null, 2);
-    downloadFile(jsonString, 'automaton_project.json', 'application/json');
+    downloadFile(jsonString, 'automata_project.json', 'application/json');
 }
 
 /**
@@ -172,7 +172,7 @@ function exportSVG() {
         sourceString = sourceString.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
     }
     sourceString = '<?xml version="1.0" standalone="no"?>\r\n' + sourceString;
-    downloadFile(sourceString, 'automaton.svg', 'image/svg+xml;charset=utf-8');
+    downloadFile(sourceString, 'automata.svg', 'image/svg+xml;charset=utf-8');
 }
 
 /**
@@ -215,5 +215,5 @@ function exportTikZ() {
     });
 
     latexSource += `  ;\n\\end{tikzpicture}\n\\end{document}`;
-    downloadFile(latexSource, 'automaton.tex', 'text/plain');
+    downloadFile(latexSource, 'automata.tex', 'text/plain');
 }
