@@ -40,8 +40,7 @@ Finite state machines are a staple of computer science, but creating digital, ex
 
 ## 📸 Screenshots
 
-*(Add a screenshot or GIF of your editor in action here!)*
-> **Tip:** Replace this block with `<img src="link_to_gif_or_image" width="600"/>` once you upload your media to the repo.
+<img src="screenshot.png" alt="Automata Editor Screenshot" width="800"/>
 
 ## 💻 Local Installation
 
@@ -49,7 +48,7 @@ The project uses Vanilla JavaScript and does not require complex build steps, bu
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/automata-editor.git
+   git clone https://github.com/yaronserlin/automata-editor.git
    cd automata-editor
    ```
 2. **Start a local web server:**
